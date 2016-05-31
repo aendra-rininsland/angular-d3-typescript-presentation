@@ -1,0 +1,386 @@
+{
+  "nodes": [
+    {
+      "label": "Officer",
+      "title": "Leyla Aliyeva"
+    },
+    {
+      "label": "Person",
+      "title": "leyla aliyeva"
+    },
+    {
+      "label": "Company",
+      "title": "Exaltation Limited"
+    },
+    {
+      "label": "Officer",
+      "title": "LEYLA ILHAM QIZI ALIYEVA"
+    },
+    {
+      "label": "Company",
+      "title": "Kingsview Developents Limited"
+    },
+    {
+      "label": "Company",
+      "title": "UF Universe Foundation"
+    },
+    {
+      "label": "Officer",
+      "title": "Arzu Aliyeva"
+    },
+    {
+      "label": "Officer",
+      "title": "Mehriban Aliyeva"
+    },
+    {
+      "label": "Person",
+      "title": "mehriban aliyeva"
+    },
+    {
+      "label": "Person",
+      "title": "arzu aliyeva"
+    },
+    {
+      "label": "Officer",
+      "title": "Arzu Ilham Qizi Aliyeva"
+    },
+    {
+      "label": "Officer",
+      "title": "Leyla Ilham Qizi Aliyeva"
+    },
+    {
+      "label": "Officer",
+      "title": "ARZU ILHAM QIZI ALIYEVA"
+    },
+    {
+      "label": "Person",
+      "title": "ilham aliyev"
+    },
+    {
+      "label": "Person",
+      "title": "heydar aliyev"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "type": "IOO_PROTECTOR"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "type": "IOO_PROTECTOR"
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 6,
+      "target": 2,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 10,
+      "target": 6,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 11,
+      "target": 1,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 11,
+      "target": 2,
+      "type": "IOO_BENEFICIARY"
+    },
+    {
+      "source": 11,
+      "target": 3,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "type": "IOO_SHAREHOLDER"
+    },
+    {
+      "source": 11,
+      "target": 3,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 6,
+      "target": 2,
+      "type": "IOO_BSD"
+    },
+    {
+      "source": 12,
+      "target": 2,
+      "type": "IOO_SHAREHOLDER"
+    },
+    {
+      "source": 10,
+      "target": 2,
+      "type": "IOO_BENEFICIARY"
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "type": "IOO_SHAREHOLDER"
+    },
+    {
+      "source": 11,
+      "target": 2,
+      "type": "IOO_BENEFICIARY"
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 10,
+      "target": 6,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 10,
+      "target": 2,
+      "type": "IOO_BENEFICIARY"
+    },
+    {
+      "source": 12,
+      "target": 9,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 12,
+      "target": 2,
+      "type": "IOO_SHAREHOLDER"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "type": "HAS_SIMILIAR_NAME"
+    },
+    {
+      "source": 13,
+      "target": 9,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 9,
+      "target": 14,
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": 12,
+      "target": 9,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 13,
+      "target": 1,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": 11,
+      "target": 1,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 13,
+      "target": 8,
+      "type": "MARRIED_TO"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "type": "IDENTITY"
+    },
+    {
+      "source": 13,
+      "target": 9,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 13,
+      "target": 1,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 13,
+      "target": 8,
+      "type": "MARRIED_TO"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 9,
+      "target": 14,
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "type": "CHILD_OF"
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "type": "CHILD_OF"
+    }
+  ]
+}

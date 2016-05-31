@@ -1,0 +1,47 @@
+line.link {
+  stroke: grey;
+}
+
+line.link.IDENTITY {
+  stroke: red;
+}
+
+line.link.IOO_BSD {
+  stroke: green;
+}
+
+line.link.IOO_PROTECTOR {
+  stroke: blue;
+}
+
+line.link.IOO_BENEFICIARY {
+  stroke: orange;
+}
+
+line.link.IOO_SHAREHOLDER {
+  stroke: yellow;
+}
+
+line.link.HAS_SIMILAR_NAME {
+  stroke: pink;
+}
+
+line.link.CHILD_OF {
+  stroke: black;
+}
+
+line.link.SIBLING_OF {
+  stroke: black;
+}
+
+.node.Officer circle {
+  fill: blue;
+}
+
+.node.Company circle {
+  fill: green;
+}
+
+.node.Person circle {
+  fill: red;
+}

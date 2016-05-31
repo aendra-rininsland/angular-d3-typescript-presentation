@@ -14,9 +14,4 @@ describe('App: HiMoo', () => {
       inject([HiMooAppComponent], (app: HiMooAppComponent) => {
     expect(app).toBeTruthy();
   }));
-
-  it('should have as title \'hi-moo works!\'',
-      inject([HiMooAppComponent], (app: HiMooAppComponent) => {
-    expect(app.title).toEqual('hi-moo works!');
-  }));
 });
