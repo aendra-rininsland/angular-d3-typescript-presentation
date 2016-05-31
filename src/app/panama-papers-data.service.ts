@@ -4,11 +4,9 @@ import { Observable }     from 'rxjs/Observable';
 
 @Injectable()
 export class PanamaPapersDataService {
-  data: any;
-
   constructor(private http: Http) {}
 
-  getData(): any {
+  getData(): Observable<Node> {
     return this.http.get('aliyeva-network.json')
       .map(res => res.json());
   }

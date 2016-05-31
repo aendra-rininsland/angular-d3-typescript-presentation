@@ -8,9 +8,13 @@ import * as d3 from 'd3';
   selector: 'app-panama-paper-network',
   templateUrl: 'panama-paper-network.component.html',
   styleUrls: ['panama-paper-network.component.css'],
-  providers: [PanamaPapersDataService]
+  providers: [PanamaPapersDataService],
+  inputs: ['width', 'height']
 })
 export class PanamaPaperNetworkComponent implements OnInit {
+  public width: number;
+  public height: number;
+
   errorMessage: Error;
 
   constructor(private papers: PanamaPapersDataService, private eltRef: ElementRef) {}
@@ -26,7 +30,7 @@ export class PanamaPaperNetworkComponent implements OnInit {
   }
 
   runSim(graph: IPanamaPapersGraph) {
-    let width = window.innerWidth, height = window.innerHeight;
+    let width = this.width || (window.innerWidth - 50), height = this.height || (window.innerHeight - 50);
 
     // force layout setup
     let force = d3.layout.force()
@@ -35,7 +39,7 @@ export class PanamaPaperNetworkComponent implements OnInit {
     .linkStrength(0.1)
     .size([width, height])
 
-    // setup svg div
+    // setup svg div on this.eltRef.nativeElement.firstChild
     let svg = d3.select(this.eltRef.nativeElement.firstChild).append('svg')
     .attr('width', width).attr('height', height)
     .attr('pointer-events', 'all');
