@@ -16,8 +16,7 @@
   },
   "files": [
     "main.ts",
-    "typings.d.ts",
-    "app/panama-paper-network/index.js"
+    "typings.d.ts"
   ],
   "atom": {
     "rewriteTsconfig": true

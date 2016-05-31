@@ -6,7 +6,7 @@ import { Observable }     from 'rxjs/Observable';
 export class PanamaPapersDataService {
   constructor(private http: Http) {}
 
-  getData(): Observable<Node> {
+  getData(): Observable<any> {
     return this.http.get('aliyeva-network.json')
       .map(res => res.json());
   }
