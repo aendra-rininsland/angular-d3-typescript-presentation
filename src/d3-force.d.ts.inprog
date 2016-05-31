@@ -1,0 +1,89 @@
+// declare module 'd3-force' {
+//   export function forceSimulation(): Simulation<force.Link<force.Node>, force.Node>;
+//   export function forceSimulation<Node extends force.Node>(): Simulation<force.Link<Node>, Node>;
+//   export function forceSimulation<Link extends force.Link<force.Node>, Node extends force.Node>(): Simulation<Link, Node>;
+//
+//   namespace force {
+//     interface Link<T extends Node> {
+//       source: T;
+//       target: T;
+//     }
+//
+//     interface Node {
+//       index?: number;
+//       x?: number;
+//       y?: number;
+//       px?: number;
+//       py?: number;
+//       fixed?: boolean;
+//       weight?: number;
+//     }
+//
+//     interface Event {
+//       type: string;
+//       alpha: number;
+//     }
+//   }
+//
+//   interface Simulation<Link extends force.Link<force.Node>, Node extends force.Node> {
+//     size(): [number, number];
+//     size(size: [number, number]): Simulation<Link, Node>;
+//
+//     linkDistance(): number | ((link: Link, index: number) => number);
+//     linkDistance(distance: number): Simulation<Link, Node>;
+//     linkDistance(distance: (link: Link, index: number) => number): Simulation<Link, Node>;
+//
+//     linkStrength(): number | ((link: Link, index: number) => number);
+//     linkStrength(strength: number): Simulation<Link, Node>;
+//     linkStrength(strength: (link: Link, index: number) => number): Simulation<Link, Node>;
+//
+//     friction(): number;
+//     friction(friction: number): Simulation<Link, Node>;
+//
+//     charge(): number | ((node: Node, index: number) => number);
+//     charge(charge: number): Simulation<Link, Node>;
+//     charge(charge: (node: Node, index: number) => number): Simulation<Link, Node>;
+//
+//     chargeDistance(): number;
+//     chargeDistance(distance: number): Simulation<Link, Node>;
+//
+//     theta(): number;
+//     theta(theta: number): Simulation<Link, Node>;
+//
+//     gravity(): number;
+//     gravity(gravity: number): Simulation<Link, Node>;
+//
+//     nodes(): Node[];
+//     nodes(nodes: Node[]): Simulation<Link, Node>;
+//
+//     links(): Link[];
+//     links(links: { source: number; target: number }[]): Simulation<Link, Node>;
+//     links(links: Link[]): Simulation<Link, Node>;
+//
+//     start(): Simulation<Link, Node>;
+//
+//     alpha(): number;
+//     alpha(value: number): Simulation<Link, Node>;
+//
+//     resume(): Simulation<Link, Node>;
+//
+//     stop(): Simulation<Link, Node>;
+//
+//     on(type: string): (event: force.Event) => void;
+//     on(type: string, listener: (event: force.Event) => void): Simulation<Link, Node>;
+//
+//     drag(factor: number): number;
+//   }
+// }
+
+// declare module 'd3-force' {
+//
+// export const version: String;
+// export function forceCenter();
+// export function forceCollide();
+// export function forceLink();
+// export function forceManyBody();
+// export function forceSimulation();
+// export function forceX();
+// export function forceY();
+// }

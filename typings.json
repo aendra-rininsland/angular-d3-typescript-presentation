@@ -1,0 +1,11 @@
+{
+  "ambientDevDependencies": {
+    "angular-protractor": "registry:dt/angular-protractor#1.5.0+20160425143459",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160412134438",
+    "selenium-webdriver": "registry:dt/selenium-webdriver#2.44.0+20160317120654"
+  },
+  "ambientDependencies": {},
+  "dependencies": {
+    "d3": "github:typed-typings/npm-d3#8bb38bb0ef0a48ac273f6045c26753260ea089df"
+  }
+}
