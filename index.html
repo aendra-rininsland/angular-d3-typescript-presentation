@@ -4,10 +4,10 @@
 
 <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>Deck Title</title>
+<title>D3 + Angular + TypeScript by aendrew</title>
 
-<meta name="description" content="TODO">
-<meta name="author" content="TODO">
+<meta name="description" content="High level overview of some shiny things">
+<meta name="author" content="Ændrew Rininsland">
 
 <style>
 .componentContainer {
@@ -777,7 +777,15 @@ bootstrap(HiMooAppComponent, [HTTP_PROVIDERS]);</code></pre>
 			<h2 id="first-some-annoying-config-">First, some annoying config!</h2>
 <h4 id="2-at-the-top-of-src-system-config-js-">2. At the top of src/system-config.js:</h4>
 <pre><code>const map: any = {
-  'd3': 'vendor/d3/d3.js'
+  'd3': 'vendor/d3/'
+};
+
+const packages: any = {
+  'd3': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'd3.js'
+  }
 };</code></pre>
 <h4 id="3-in-angular-cli-build-js-">3. In: angular-cli-build.js:</h4>
 <p>Add <code>'d3/**/*.+(js|js.map)'</code> to <code>vendorNpmFiles</code></p>
@@ -805,7 +813,7 @@ import { Observable }     from 'rxjs/Observable';
 export class PanamaPapersDataService {
   constructor(private http: Http) {}
 
-  getData(): Observable&lt;Node&gt; {
+  getData(): Observable&lt;any&gt; {
     return this.http.get('aliyeva-network.json')
       .map(res =&gt; res.json());
   }
@@ -1042,7 +1050,7 @@ interface IGraphLink extends d3.layout.force.Link&lt;IGraphNode&gt; {
 <div class="transformContainer" style="-webkit-transform: scale(0.61, 0.61);
 -moz-transform: scale(0.61, 0.61);
 transform: scale(0.61, 0.61)">
-<iframe width="960" height="768" src="http://localhost:4200"></iframe>
+<iframe width="960" height="768" src="/demo.html"></iframe>
 </div>
 </div>
 
